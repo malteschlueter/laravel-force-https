@@ -1,0 +1,19 @@
+{
+    "name": "mschlueter/laravel-force-https",
+    "description": "",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "Malte Schlüter",
+            "email": "git@schlueter-malte.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mschlueter\\Routing\\": "src/"
+        }
+    }
+}
