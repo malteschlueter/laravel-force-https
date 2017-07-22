@@ -1,6 +1,6 @@
 {
     "name": "mschlueter/laravel-force-https",
-    "description": "Middleware to force https",
+    "description": "Simple Middleware to force https",
     "keywords": ["laravel", "force-https"],
     "license": "MIT",
     "authors": [
