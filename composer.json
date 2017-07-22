@@ -1,7 +1,8 @@
 {
     "name": "mschlueter/laravel-force-https",
-    "description": "",
-    "keywords": ["laravel"],
+    "description": "Middleware to force https",
+    "keywords": ["laravel", "force-https"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Malte Schlüter",

@@ -3,6 +3,7 @@
 namespace Mschlueter\Routing\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\App;
 
 class ForceHttps {
 
@@ -16,7 +17,7 @@ class ForceHttps {
      */
     public function handle($request, Closure $next) {
 
-        if(!$request->secure()) {
+        if(App::environment('production') && !$request->secure()) {
             return redirect()->secure($this->getUri($request));
         }
 
@@ -26,7 +27,7 @@ class ForceHttps {
     /**
      * @param \Illuminate\Http\Request $request
      *
-     * @return mixed
+     * @return string
      */
     protected function getUri($request) {
 
