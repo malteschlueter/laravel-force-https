@@ -12,9 +12,7 @@ Run in terminal:
 Add the middleware to a controller, group, etc:
 
 ```php
-
 \Mschlueter\Routing\Middleware\ForceHttps,
-
 ```
 
 #### Addtional information ####
