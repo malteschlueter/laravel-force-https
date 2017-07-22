@@ -4,7 +4,7 @@ mschlueter/laravel-force-https
 ## Installation
 
 Run in terminal:
-`composer require mschlueter/laravel-force-https:master-dev`
+`composer require mschlueter/laravel-force-https`
 
 
 ### Laravel 5.* Integration
